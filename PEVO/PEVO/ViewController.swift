@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  PEVOApp2019
+//  PEVO
 //
-//  Created by Miguel Tepale on 9/12/18.
-//  Copyright © 2018 Purple Evolution. All rights reserved.
+//  Created by Miguel Tepale on 9/14/18.
+//  Copyright © 2018 Purple Revolution. All rights reserved.
 //
 
 import UIKit

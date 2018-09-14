@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C3FAC442149955000F89B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3FAC432149955000F89B93 /* AppDelegate.swift */; };
-		8C3FAC462149955000F89B93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3FAC452149955000F89B93 /* ViewController.swift */; };
-		8C3FAC492149955000F89B93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3FAC472149955000F89B93 /* Main.storyboard */; };
-		8C3FAC4B2149955200F89B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3FAC4A2149955200F89B93 /* Assets.xcassets */; };
-		8C3FAC4E2149955200F89B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3FAC4C2149955200F89B93 /* LaunchScreen.storyboard */; };
+		8C2DBA71214C29CB00F502BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DBA70214C29CB00F502BC /* AppDelegate.swift */; };
+		8C2DBA73214C29CB00F502BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DBA72214C29CB00F502BC /* ViewController.swift */; };
+		8C2DBA76214C29CB00F502BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2DBA74214C29CB00F502BC /* Main.storyboard */; };
+		8C2DBA78214C29CC00F502BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2DBA77214C29CC00F502BC /* Assets.xcassets */; };
+		8C2DBA7B214C29CC00F502BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2DBA79214C29CC00F502BC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C3FAC402149955000F89B93 /* PEVOApp2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PEVOApp2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C3FAC432149955000F89B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C3FAC452149955000F89B93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8C3FAC482149955000F89B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C3FAC4A2149955200F89B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8C3FAC4D2149955200F89B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8C3FAC4F2149955200F89B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2DBA6D214C29CB00F502BC /* PEVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PEVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2DBA70214C29CB00F502BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C2DBA72214C29CB00F502BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C2DBA75214C29CB00F502BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C2DBA77214C29CC00F502BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C2DBA7A214C29CC00F502BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C2DBA7C214C29CC00F502BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8C3FAC3D2149955000F89B93 /* Frameworks */ = {
+		8C2DBA6A214C29CB00F502BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8C3FAC372149955000F89B93 = {
+		8C2DBA64214C29CB00F502BC = {
 			isa = PBXGroup;
 			children = (
-				8C3FAC422149955000F89B93 /* PEVOApp2019 */,
-				8C3FAC412149955000F89B93 /* Products */,
+				8C2DBA6F214C29CB00F502BC /* PEVO */,
+				8C2DBA6E214C29CB00F502BC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8C3FAC412149955000F89B93 /* Products */ = {
+		8C2DBA6E214C29CB00F502BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C3FAC402149955000F89B93 /* PEVOApp2019.app */,
+				8C2DBA6D214C29CB00F502BC /* PEVO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C3FAC422149955000F89B93 /* PEVOApp2019 */ = {
+		8C2DBA6F214C29CB00F502BC /* PEVO */ = {
 			isa = PBXGroup;
 			children = (
-				8C3FAC432149955000F89B93 /* AppDelegate.swift */,
-				8C3FAC452149955000F89B93 /* ViewController.swift */,
-				8C3FAC472149955000F89B93 /* Main.storyboard */,
-				8C3FAC4A2149955200F89B93 /* Assets.xcassets */,
-				8C3FAC4C2149955200F89B93 /* LaunchScreen.storyboard */,
-				8C3FAC4F2149955200F89B93 /* Info.plist */,
+				8C2DBA70214C29CB00F502BC /* AppDelegate.swift */,
+				8C2DBA72214C29CB00F502BC /* ViewController.swift */,
+				8C2DBA74214C29CB00F502BC /* Main.storyboard */,
+				8C2DBA77214C29CC00F502BC /* Assets.xcassets */,
+				8C2DBA79214C29CC00F502BC /* LaunchScreen.storyboard */,
+				8C2DBA7C214C29CC00F502BC /* Info.plist */,
 			);
-			path = PEVOApp2019;
+			path = PEVO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C3FAC3F2149955000F89B93 /* PEVOApp2019 */ = {
+		8C2DBA6C214C29CB00F502BC /* PEVO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C3FAC522149955200F89B93 /* Build configuration list for PBXNativeTarget "PEVOApp2019" */;
+			buildConfigurationList = 8C2DBA7F214C29CC00F502BC /* Build configuration list for PBXNativeTarget "PEVO" */;
 			buildPhases = (
-				8C3FAC3C2149955000F89B93 /* Sources */,
-				8C3FAC3D2149955000F89B93 /* Frameworks */,
-				8C3FAC3E2149955000F89B93 /* Resources */,
+				8C2DBA69214C29CB00F502BC /* Sources */,
+				8C2DBA6A214C29CB00F502BC /* Frameworks */,
+				8C2DBA6B214C29CB00F502BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PEVOApp2019;
-			productName = PEVOApp2019;
-			productReference = 8C3FAC402149955000F89B93 /* PEVOApp2019.app */;
+			name = PEVO;
+			productName = PEVO;
+			productReference = 8C2DBA6D214C29CB00F502BC /* PEVO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8C3FAC382149955000F89B93 /* Project object */ = {
+		8C2DBA65214C29CB00F502BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "Purple Evolution";
+				ORGANIZATIONNAME = "Purple Revolution";
 				TargetAttributes = {
-					8C3FAC3F2149955000F89B93 = {
+					8C2DBA6C214C29CB00F502BC = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 8C3FAC3B2149955000F89B93 /* Build configuration list for PBXProject "PEVOApp2019" */;
+			buildConfigurationList = 8C2DBA68214C29CB00F502BC /* Build configuration list for PBXProject "PEVO" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 8C3FAC372149955000F89B93;
-			productRefGroup = 8C3FAC412149955000F89B93 /* Products */;
+			mainGroup = 8C2DBA64214C29CB00F502BC;
+			productRefGroup = 8C2DBA6E214C29CB00F502BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C3FAC3F2149955000F89B93 /* PEVOApp2019 */,
+				8C2DBA6C214C29CB00F502BC /* PEVO */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8C3FAC3E2149955000F89B93 /* Resources */ = {
+		8C2DBA6B214C29CB00F502BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3FAC4E2149955200F89B93 /* LaunchScreen.storyboard in Resources */,
-				8C3FAC4B2149955200F89B93 /* Assets.xcassets in Resources */,
-				8C3FAC492149955000F89B93 /* Main.storyboard in Resources */,
+				8C2DBA7B214C29CC00F502BC /* LaunchScreen.storyboard in Resources */,
+				8C2DBA78214C29CC00F502BC /* Assets.xcassets in Resources */,
+				8C2DBA76214C29CB00F502BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8C3FAC3C2149955000F89B93 /* Sources */ = {
+		8C2DBA69214C29CB00F502BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3FAC462149955000F89B93 /* ViewController.swift in Sources */,
-				8C3FAC442149955000F89B93 /* AppDelegate.swift in Sources */,
+				8C2DBA73214C29CB00F502BC /* ViewController.swift in Sources */,
+				8C2DBA71214C29CB00F502BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8C3FAC472149955000F89B93 /* Main.storyboard */ = {
+		8C2DBA74214C29CB00F502BC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8C3FAC482149955000F89B93 /* Base */,
+				8C2DBA75214C29CB00F502BC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8C3FAC4C2149955200F89B93 /* LaunchScreen.storyboard */ = {
+		8C2DBA79214C29CC00F502BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8C3FAC4D2149955200F89B93 /* Base */,
+				8C2DBA7A214C29CC00F502BC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8C3FAC502149955200F89B93 /* Debug */ = {
+		8C2DBA7D214C29CC00F502BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		8C3FAC512149955200F89B93 /* Release */ = {
+		8C2DBA7E214C29CC00F502BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,36 +276,34 @@
 			};
 			name = Release;
 		};
-		8C3FAC532149955200F89B93 /* Debug */ = {
+		8C2DBA80214C29CC00F502BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C8D6R84CB;
-				INFOPLIST_FILE = PEVOApp2019/Info.plist;
+				INFOPLIST_FILE = PEVO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.purpleEvolution.PEVOApp2019;
+				PRODUCT_BUNDLE_IDENTIFIER = com.purpleEvolution.PEVO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8C3FAC542149955200F89B93 /* Release */ = {
+		8C2DBA81214C29CC00F502BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C8D6R84CB;
-				INFOPLIST_FILE = PEVOApp2019/Info.plist;
+				INFOPLIST_FILE = PEVO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.purpleEvolution.PEVOApp2019;
+				PRODUCT_BUNDLE_IDENTIFIER = com.purpleEvolution.PEVO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C3FAC3B2149955000F89B93 /* Build configuration list for PBXProject "PEVOApp2019" */ = {
+		8C2DBA68214C29CB00F502BC /* Build configuration list for PBXProject "PEVO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C3FAC502149955200F89B93 /* Debug */,
-				8C3FAC512149955200F89B93 /* Release */,
+				8C2DBA7D214C29CC00F502BC /* Debug */,
+				8C2DBA7E214C29CC00F502BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C3FAC522149955200F89B93 /* Build configuration list for PBXNativeTarget "PEVOApp2019" */ = {
+		8C2DBA7F214C29CC00F502BC /* Build configuration list for PBXNativeTarget "PEVO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C3FAC532149955200F89B93 /* Debug */,
-				8C3FAC542149955200F89B93 /* Release */,
+				8C2DBA80214C29CC00F502BC /* Debug */,
+				8C2DBA81214C29CC00F502BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8C3FAC382149955000F89B93 /* Project object */;
+	rootObject = 8C2DBA65214C29CB00F502BC /* Project object */;
 }
