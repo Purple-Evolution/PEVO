@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8C2DBA71214C29CB00F502BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DBA70214C29CB00F502BC /* AppDelegate.swift */; };
-		8C2DBA73214C29CB00F502BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2DBA72214C29CB00F502BC /* ViewController.swift */; };
-		8C2DBA76214C29CB00F502BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2DBA74214C29CB00F502BC /* Main.storyboard */; };
 		8C2DBA78214C29CC00F502BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2DBA77214C29CC00F502BC /* Assets.xcassets */; };
 		8C2DBA7B214C29CC00F502BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2DBA79214C29CC00F502BC /* LaunchScreen.storyboard */; };
+		8CC05E59215B54C00036A7C3 /* PevoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC05E58215B54C00036A7C3 /* PevoTabBarController.swift */; };
+		8CC05E5B215B54E10036A7C3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC05E5A215B54E10036A7C3 /* HomeViewController.swift */; };
+		8CC05E5D215B57CF0036A7C3 /* ShelterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC05E5C215B57CF0036A7C3 /* ShelterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C2DBA6D214C29CB00F502BC /* PEVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PEVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2DBA70214C29CB00F502BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C2DBA72214C29CB00F502BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8C2DBA75214C29CB00F502BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C2DBA77214C29CC00F502BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C2DBA7A214C29CC00F502BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C2DBA7C214C29CC00F502BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC05E58215B54C00036A7C3 /* PevoTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PevoTabBarController.swift; sourceTree = "<group>"; };
+		8CC05E5A215B54E10036A7C3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8CC05E5C215B57CF0036A7C3 /* ShelterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				8C2DBA70214C29CB00F502BC /* AppDelegate.swift */,
-				8C2DBA72214C29CB00F502BC /* ViewController.swift */,
-				8C2DBA74214C29CB00F502BC /* Main.storyboard */,
+				8CC05E58215B54C00036A7C3 /* PevoTabBarController.swift */,
+				8CC05E5C215B57CF0036A7C3 /* ShelterViewController.swift */,
+				8CC05E5A215B54E10036A7C3 /* HomeViewController.swift */,
 				8C2DBA77214C29CC00F502BC /* Assets.xcassets */,
 				8C2DBA79214C29CC00F502BC /* LaunchScreen.storyboard */,
 				8C2DBA7C214C29CC00F502BC /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					8C2DBA6C214C29CB00F502BC = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -124,7 +128,6 @@
 			files = (
 				8C2DBA7B214C29CC00F502BC /* LaunchScreen.storyboard in Resources */,
 				8C2DBA78214C29CC00F502BC /* Assets.xcassets in Resources */,
-				8C2DBA76214C29CB00F502BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +138,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2DBA73214C29CB00F502BC /* ViewController.swift in Sources */,
+				8CC05E5D215B57CF0036A7C3 /* ShelterViewController.swift in Sources */,
 				8C2DBA71214C29CB00F502BC /* AppDelegate.swift in Sources */,
+				8CC05E59215B54C00036A7C3 /* PevoTabBarController.swift in Sources */,
+				8CC05E5B215B54E10036A7C3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8C2DBA74214C29CB00F502BC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C2DBA75214C29CB00F502BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8C2DBA79214C29CC00F502BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -213,7 +210,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -288,7 +285,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.purpleEvolution.PEVO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,7 +302,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.purpleEvolution.PEVO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
